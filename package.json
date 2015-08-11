@@ -1,7 +1,7 @@
 {
   "name": "gulp-nuget-pack",
-  "version": "0.0.5",
-  "description": "Gulp task for creating nuget packages without using nuget.exe.",
+  "version": "0.0.52",
+  "description": "Gulp task for creating nuget packages without using nuget.exe. [Modded]",
   "main": "index.js",
   "scripts": {
     "test": "gulp test"
@@ -24,7 +24,7 @@
   "homepage": "https://github.com/w8r/gulp-nuget-pack#readme",
   "devDependencies": {},
   "dependencies": {
-    "grunt-nuget-pack": "0.0.5",
+    "grunt-nuget-pack": "git+https://github.com/KevinCJones/grunt-nuget-pack.git#0.0.51",
     "gulp": "^3.8.11",
     "gulp-util": "^3.0.4",
     "queue-async": "^1.0.7",
